@@ -18,7 +18,8 @@ public class App {
 
         switch (codigo) {
             case 1:
-                
+                int resultado = num1 + num2;
+                System.out.println("Resultado da soma: " + resultado);
                 break;
             case 2:
                 
