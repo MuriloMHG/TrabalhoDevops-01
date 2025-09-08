@@ -28,7 +28,12 @@ public class App {
                 
                 break;
             case 4:
-                
+                if (num2 != 0) {
+                    double resultadoDivisao = (double) num1 / num2;
+                    System.out.println("Resultado da divisão: " + resultadoDivisao);
+                } else {
+                    System.out.println("Divisão por zero não é permitida!");
+                }
                 break;
             default:
                 System.out.println("Código inválido!");
