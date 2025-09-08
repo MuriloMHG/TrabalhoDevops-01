@@ -22,7 +22,8 @@ public class App {
                 System.out.println("Resultado da soma: " + resultado);
                 break;
             case 2:
-                
+                int subtracao = num1 - num2;
+                System.out.println("Resultado da subtração: " + subtracao);
                 break;
             case 3:
                 
