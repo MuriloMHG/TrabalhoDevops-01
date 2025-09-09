@@ -26,7 +26,8 @@ public class App {
                 System.out.println("Resultado da subtração: " + subtracao);
                 break;
             case 3:
-                
+                int multiplicacao = (num1 * num2);
+                System.out.println("Resultado da Multiplicação: " + multiplicacao);
                 break;
             case 4:
                 if (num2 != 0) {
